@@ -13,6 +13,9 @@ app.get('/login', (req,res) =>{
     res.send("rishav ")
 })
 
+app.get('/student', (req,res) =>{
+    res.send("<h2>i am a studnet</h2>")
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
